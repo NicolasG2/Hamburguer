@@ -1,0 +1,52 @@
+* {
+    font-family: chercher;
+    font-size: 18px;
+}
+
+@font-face {
+    font-family: chercher;
+    src: url("../fonts/chercher-black.otf");
+}
+
+header, main {
+    background-color: rgb(255, 194, 52);
+}
+
+.texto-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+
+    color: rgb(65, 31, 9);
+}
+
+.texto-principal h3 {
+    border: 1px dashed rgb(65, 31, 9);
+    font-size: 1rem;
+    display: flex;
+    width: max-content;
+    padding: 0.8rem;
+}
+
+.texto-principal h1 {
+    font-size: 5rem;
+}
+
+.texto-principal h2 {
+    font-size: 3rem;
+}
+
+.imagem-principal {
+    position: relative;
+}
+
+.imagem-preco {
+    position: absolute;
+    bottom: 0;
+}
+
+.delivery span {
+    color: rgb(65, 31, 9);
+    font-weight: bold;
+}
